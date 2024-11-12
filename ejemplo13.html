@@ -1,0 +1,71 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Propiedad font-size</title>
+
+    <style>
+        p {
+            font-family: 'Tangerine', cursive;
+            font-size: 38px;
+        }
+
+        .shadow1 {
+            text-shadow: 3px 3px 2px rgba(152, 150, 207, 0.7);
+        }
+
+        .shadow2 {
+            box-shadow: 10px 10px 14px 2px rgba(0, 0, 0, 0.47);
+        }
+
+        .shadow3 {
+            box-shadow: 5px 1px 4px 2px #45f875 inset;
+        }
+
+        .shadow4 {
+            text-shadow: 3px 4px 0px grey,
+                2px 2px 1px yellow;
+        }
+
+        div:nth-child(1) {
+            background: lineargradient(90deg, rgba(176, 174, 238, 1) 0%,
+                    rgba(29, 30, 31, 1));
+        }
+
+        div:nth-child(2) {
+            background: linear-gradient(to right, red, brown, orange, yellow, blue, green, violet, pi nk);
+        }
+
+        div:nth-child(3) {
+            background: linear-gradient(to top, #000, #ccc);
+        }
+
+        div {
+            padding: 40px;
+        }
+
+        div:nth-child(4) {
+            background: linear-gradient(to right, red 300px, brown 400px, orange 700px);
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
+</head>
+
+<body>
+    <p class="shadow1">Texto con
+        sombra</p>
+    <p class="shadow2">Texto en
+        contenedor con sombra</p>
+    <p class="shadow3">Texto en
+        contenedor con sombra interior</p>
+    <p class="shadow4">Texto con dos
+        sombras</p>
+    <p> Párrafo con estilo en Tangerine</p>
+    <p>Incorporado del repositorio de Google Fonts</p>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+</body>
+
+</html>
